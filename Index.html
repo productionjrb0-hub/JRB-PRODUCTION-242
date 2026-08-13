@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JRB PRODUCTION 242</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#07111f;
+color:white;
+line-height:1.6
+}
+header{
+position:fixed;
+top:0;
+left:0;
+right:0;
+z-index:100;
+background:#07111fee;
+border-bottom:1px solid #ffffff20
+}
+nav{
+max-width:1100px;
+margin:auto;
+padding:18px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center
+}
+.logo{
+font-size:20px;
+font-weight:bold
+}
+.logo span{color:#4f8cff}
+nav a{
+color:white;
+text-decoration:none;
+margin-left:18px
+}
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+text-align:center;
+padding:120px 20px 70px;
+background:linear-gradient(135deg,#07111f,#0b2850,#07111f)
+}
+.hero-content{
+max-width:850px;
+margin:auto
+}
+.hero h1{
+font-size:clamp(42px,8vw,80px);
+margin:10px 0;
+line-height:1
+}
+.hero h1 span{color:#4f8cff}
+.hero p{
+font-size:20px;
+color:#c3cfdf
+}
+.buttons{
+margin-top:30px
+}
+.btn{
+display:inline-block;
+padding:14px 22px;
+margin:6px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+background:#1261ff;
+color:white
+}
+.btn.secondary{
+background:transparent;
+border:1px solid #ffffff40
+}
+section{
+padding:90px 20px
+}
+.container{
+max-width:1100px;
+margin:auto
+}
+.title{
+text-align:center;
+margin-bottom:45px
+}
+.title h2{
+font-size:38px;
+margin-bottom:8px
+}
+.title p{
+color:#aebbd0
+}
+.about{
+background:#091a2d
+}
+.about-box{
+background:#102642;
+padding:30px;
+border-radius:15px;
+border:1px solid #ffffff15
+}
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px
+}
+.card{
+background:#102642;
+padding:25px;
+border-radius:15px;
+border:1px solid #ffffff15
+}
+.card .icon{
+font-size:35px
+}
+.card h3{
+margin:10px 0
+}
+.card p{
+color:#b8c5d6
+}
+.video{
+background:#091a2d;
+text-align:center
+}
+.video-box{
+background:#102642;
+padding:45px 20px;
+border-radius:15px
+}
+.video-icon{
+font-size:60px
+}
+.contact-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px
+}
+.contact-box{
+background:#102642;
+padding:30px;
+border-radius:15px
+}
+.contact-box p{
+color:#c0ccdb
+}
+form input,form textarea{
+width:100%;
+padding:14px;
+margin-bottom:12px;
+border:1px solid #ffffff20;
+border-radius:8px;
+background:#07111f;
+color:white
+}
+form textarea{
+height:130px
+}
+footer{
+text-align:center;
+padding:30px 20px;
+border-top:1px solid #ffffff15;
+color:#aebbd0
+}
+@media(max-width:800px){
+nav{
+flex-direction:column;
+gap:10px
+}
+nav a{
+font-size:14px;
+margin:5px
+}
+.cards{
+grid-template-columns:1fr
+}
+.contact-grid{
+grid-template-columns:1fr
+}
+.hero h1{
+font-size:48px
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">JRB <span>PRODUCTION 242</span></div>
+<div>
+<a href="#accueil">Accueil</a>
+<a href="#apropos">À propos</a>
+<a href="#services">Services</a>
+<a href="#videos">Vidéos</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<section class="hero" id="accueil">
+<div class="hero-content">
+
+<p>CRÉATIVITÉ • MUSIQUE • IMAGE • PRODUCTION</p>
+
+<h1>JRB <span>PRODUCTION 242</span></h1>
+
+<p>
+Bienvenue dans notre univers créatif dédié à la musique,
+à l'audiovisuel et au graphique design.
+</p>
+
+<div class="buttons">
+<a class="btn" href="#services">Découvrir nos services</a>
+<a class="btn secondary" href="#videos">Voir nos vidéos</a>
+<a class="btn secondary" href="https://wa.me/242069154941">
+Nous contacter
+</a>
+</div>
+
+</div>
+</section>
+
+<section id="apropos" class="about">
+<div class="container">
+
+<div class="title">
+<h2>À propos</h2>
+<p>Une structure créative au service des projets artistiques.</p>
+</div>
+
+<div class="about-box">
+
+<h3>JRB PRODUCTION 242</h3>
+
+<p>
+JRB PRODUCTION 242 est une structure créative basée à
+Brazzaville, dédiée à la musique, à l'audiovisuel et au
+graphisme.
+</p>
+
+<p>
+Nous accompagnons les artistes et les créateurs dans la
+réalisation de leurs projets, de la conception à la promotion.
+</p>
+
+<h3>Notre vision</h3>
+
+<p>
+Créer, développer et valoriser les talents à travers des
+productions modernes, originales et professionnelles.
+</p>
+
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<div class="title">
+<h2>Nos services</h2>
+<p>Des solutions créatives pour vos projets.</p>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<div class="icon">🎵</div>
+<h3>Production musicale</h3>
+<p>
+Création et réalisation de projets musicaux,
+accompagnement artistique et développement de morceaux.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🎧</div>
+<h3>Studio d'enregistrement</h3>
+<p>
+Enregistrement et préparation de projets audio
+dans un environnement adapté aux artistes.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🎬</div>
+<h3>Production audiovisuelle</h3>
+<p>
+Création de contenus vidéo, clips musicaux
+et projets audiovisuels.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🎤</div>
+<h3>Accompagnement d'artistes</h3>
+<p>
+Accompagnement des artistes dans leurs projets,
+leur image et leur développement.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">📀</div>
+<h3>Promotion musicale</h3>
+<p>
+Mise en valeur et promotion des artistes,
+morceaux et projets musicaux.
+</p>
+</div>
+
+<div class="card">
+<div class="icon">🎨</div>
+<h3>Graphique design</h3>
+<p>
+Création de logos, affiches, pochettes,
+visuels promotionnels et supports graphiques.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="videos" class="video">
+<div class="container">
+
+<div class="title">
+<h2>Vidéos</h2>
+<p>Découvrez les contenus de JRB PRODUCTION 242.</p>
+</div>
+
+<div class="video-box">
+
+<div class="video-icon">▶️</div>
+
+<h3>JRB PRODUCTION 242 sur YouTube</h3>
+
+<p>
+Retrouvez nos présentations, créations musicales,
+Shorts et futurs projets audiovisuels.
+</p>
+
+<a class="btn" href="#">
+Voir notre chaîne YouTube
+</a>
+
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<div class="title">
+<h2>Contact</h2>
+<p>Parlons de votre prochain projet.</p>
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-box">
+
+<h3>JRB PRODUCTION 242</h3>
+
+<p>
+Vous avez un projet musical, audiovisuel ou graphique ?
+Contactez-nous pour échanger sur votre idée.
+</p>
+
+<p>📱 <strong>+242 06 915 49 41</strong></p>
+
+<p>📍 <strong>Brazzaville, République du Congo</strong></p>
+
+<a class="btn" href="https://wa.me/242069154941">
+💬 Nous contacter sur WhatsApp
+</a>
+
+</div>
+
+<div class="contact-box">
+
+<h3>Envoyer un message</h3>
+
+<form>
+
+<input type="text" placeholder="Votre nom">
+
+<input type="email" placeholder="Votre adresse e-mail">
+
+<input type="text" placeholder="Votre téléphone">
+
+<input type="text" placeholder="Objet">
+
+<textarea placeholder="Votre message"></textarea>
+
+<button class="btn" type="submit">
+Envoyer le message
+</button>
+
+</form>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<footer>
+
+<strong>JRB PRODUCTION 242</strong>
+
+<br>
+
+Créativité • Musique • Image • Production
+
+<br><br>
+
+© 2026 JRB PRODUCTION 242 — Tous droits réservés.
+
+</footer>
+
+</body>
+</html>
